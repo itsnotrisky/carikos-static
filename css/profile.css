@@ -1,0 +1,249 @@
+li{ list-style:none; }
+a{ color:#000 }
+a:hover{ color:#fff }
+.title
+{
+	background:url(../images/template/home/blok.png) no-repeat left;
+}
+
+.lihat_lagi {
+	background:url(../images/template/home/buttemplate.png) repeat-x;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	color:#000;
+	font-size:14px;
+	padding:2px 20px;
+	border:none;
+	text-decoration:none;
+}.lihat_lagi:hover {
+	background:url(../images/template/home/buttemplate-h.png) repeat-x;
+	color:#fff;
+}
+
+#spacephoto{
+	height:10px;
+}
+
+#spaceprofil{
+	height:60px;
+	width:2px;
+}
+
+#content{
+	margin:0 auto;
+	width:911px;
+	overflow: auto;
+	background:#e4eeef;
+	min-height:300px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.80);
+    -moz-box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.80);
+    -webkit-box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.80);
+	z-index:0px;
+	
+}
+
+
+div.content{
+	clear:both;
+}
+
+/* part 1 */
+#content div.header{
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #ddd;
+	overflow:auto;
+}
+
+#content div.header div.pp{
+	float:left;
+	border-right:1px solid #ddd;
+	width:330px;
+	height:230px;
+	margin:0; padding:0;
+}
+
+#content div.header div.pp div.content  img {
+	width:300px;
+	height:200px;
+   border:1px solid #cbdfe2;
+	-webkit-border-radius: 5px;	/* Safari */
+    -moz-border-radius: 5px;	/* Firefox 3.6 and earlier */
+    border-radius: 5px;
+	margin-left:5px;
+	margin-top:10px;
+}
+
+#content div.header div.head{
+	width:520px;
+	float:left;
+	margin-left:5px;
+	height:225px;
+}
+
+#content div.header div.head div.name, div.text, div.photo{
+	width:550px;
+	margin:0;
+}
+
+#content div.header div.head div.name, div.text{
+	border-bottom:1px solid #ddd;
+}
+#content div.header div.head div.name{
+	height:30px;
+	padding-left:5px;
+}
+#content div.header div.head div.text{
+	height:40px;
+	padding-left:5px;
+}
+#content div.header div.head div.photo{
+	height:132px;
+	text-align:center;
+}
+
+#content div.header div.head div.photo img.ft{
+	border:1px solid #cbdfe2;
+	-webkit-border-radius: 10px;	/* Safari */
+    -moz-border-radius: 10px;	/* Firefox 3.6 and earlier */
+    border-radius: 10px;
+}
+
+#content div.header div.head div.photo img.ft:hover
+{
+	border:2px solid #cbdfe2;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.44);
+}
+/* end of part 1 */
+
+.content_isi
+{
+	
+	margin-left:10px;
+	margin-top:5px;
+	margin-bottom:8px;
+}
+
+.fotolain
+{
+	margin-top:2px;
+	width:170px;
+	height:120px;
+	margin-left:5px;
+	float:left;
+	background:#fff;
+}
+.fotolain img
+{
+	width:170px;
+	height:120px;
+   border:1px solid #cbdfe2;
+	-webkit-border-radius: 5px;	/* Safari */
+    -moz-border-radius: 5px;	/* Firefox 3.6 and earlier */
+    border-radius: 5px;
+}
+
+#content div.main{
+	left:0px;
+	border-bottom:1px solid #ddd;
+	overflow:auto;
+}
+/* part 2 */
+#content div.main div.description, div.comments{
+	float:left;
+	width:525px;
+	border-right:1px solid #ddd;
+
+	margin:0; /* padding:5px; */
+}
+#content div.main div.description{
+	border-bottom:1px solid #ddd;
+	overflow:auto;
+}
+#content div.main div.comments{
+	overflow:auto;
+}
+/* end of part 2 */
+
+/* part 3 */
+#content div.main div.bar{
+	float:right;
+	
+	width:380px;
+	border:0;
+	margin:0; padding:0;
+}
+#content div.main div.bar div.map, div.suggestion{
+	margin:0; /* padding:5px; */
+	
+}
+#content div.main div.bar div.map{
+	border-bottom:1px solid #ddd;
+}
+
+
+#content div.main div.bar div.suggestion{
+	min-height:110px;
+	width:380px;
+	border-bottom:1px solid #ddd;
+}
+#content div.main div.bar div.suggestion .content .viewer .kotak{
+	min-height:60px;
+	margin-top:6px;
+	padding:5px;
+	background:url(../images/template/home/backsug_selected.png) repeat-x;
+	-webkit-border-radius: 5px;	/* Safari */
+    -moz-border-radius: 5px;	/* Firefox 3.6 and earlier */
+    border-radius: 5px;
+	cursor:pointer;
+}
+
+#content div.main div.bar div.suggestion .content .viewer .kotak:hover{
+	background:url(../images/template/home/backsug_selected1.png) repeat-x;
+}
+
+#content div.main div.bar div.suggestion .content .viewer .kotak .foto_kcl{
+    border:1px solid #cbdfe2;
+	-webkit-border-radius: 2px;	/* Safari */
+    -moz-border-radius: 2px;	/* Firefox 3.6 and earlier */
+    border-radius: 2px;
+}
+#content div.main div.bar div.suggestion .content .viewer .kotak .foto_kcl img{
+	width:80px;
+	height:20px;
+}
+#content div.main div.bar div.suggestion .content .viewer .kotak .deskrip{
+	padding-left:2px;
+	color:#000;	
+}
+
+#content div.main div.bar div.suggestion .content .viewer .kotak .deskrip li{
+	color:#000;	
+}
+.nm{
+	font-size:15px;
+	color:#000;
+}
+.al{
+	margin-top:2px;
+	font-size:13px;
+}
+
+#content div.main div.bar div.suggestion div.ajax{
+}
+/* end ofpart 3 */
+#floatbar {
+     width:100%;
+     position: fixed;
+     z-index: 99;
+     background: #000000;
+     height: 20px;
+     color: #FFFFFF;
+     font-size: 12px;
+     padding:5px;
+}
+#floatbar a {
+     color:#FFCC00;
+}
